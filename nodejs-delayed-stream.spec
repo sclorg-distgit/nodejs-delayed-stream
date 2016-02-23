@@ -4,7 +4,7 @@
 
 Name:           %{?scl_prefix}nodejs-delayed-stream
 Version:        0.0.5
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Buffers events from a stream until you are ready to handle them
 BuildArch:      noarch
 
@@ -39,6 +39,9 @@ rm -rf %buildroot
 %doc License Readme.md
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.0.5-6
+- rebuilt
+
 * Thu Oct 17 2013 Tomas Hrcka <thrcka@redhat.com> - 0.0.5-5
 - replace provides and requires with macro
 
